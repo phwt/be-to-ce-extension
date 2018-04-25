@@ -16,8 +16,12 @@ A simple Google Chrome extension for converting year format from Buddhist Era to
 - Simple dismissable pop-up for display.
 - Thai numerals supported. (๐ ๑ ๒ ๓ ๔ ๕ ๖ ๗ ๘ ๙)
 
-#### Not Available on live version. (Experimental/Waiting for deployment)
+#### Experimental/Waiting for deplotment feature(s).
 - None
+
+#### Minor change(s) waiting for deployment.
+- Easier to understand `content.js` file
+- Updated jQuery version to 3.3.1
 
 ## How to use
 
@@ -51,8 +55,8 @@ A simple Google Chrome extension for converting year format from Buddhist Era to
 - [X] Add support for thai numerals
 - [ ] Add "Options" page for user to config
    - [ ] Enable to convert from CE to BE
-- [ ] Make script in `content.js` easier to understand (Most variable named like tt, ts, tl.. Now even I don't undestand this)
-- [ ] Change jQuery path from local to CDN
+- [X] Make script in `content.js` easier to understand (Most variable named like tt, ts, tl.. Now even I don't undestand this)
+- [X] ~~Change jQuery path from local to CDN~~ (Can't due to TECHNICAL LIMITATIONS) Update jQuery to version 3.3.1
 
 ## Built with
 
