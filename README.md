@@ -7,7 +7,7 @@
 
 A simple Google Chrome extension for converting year format from Buddhist Era to Christian Era with single highlight.
 
-> Example : 2520 > 1997
+![Preview Image](https://raw.githubusercontent.com/phwt/be-to-ce-extension/master/preview.jpg)
 
 ## Features
 
