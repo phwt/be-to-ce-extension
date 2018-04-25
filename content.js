@@ -3,52 +3,54 @@ $(document).ready( function() {
 	/*var ls = localStorage.getItem("favColor");
 	ls = ls.toString();
 	alert(ls);*/
-	var t = '';
+	var hilightedText = '';
 	var popup = "<div id='popup'>text</div>";
 	$("body").mousedown(closeModal);
 	
 	var th_num = false;
 	//Replace thai numerals to arabic numerals
 	function replaceTE() {
-		tt = tt.replace(/๐/gi,"0");
-		tt = tt.replace(/๑/gi,"1");
-		tt = tt.replace(/๒/gi,"2");
-		tt = tt.replace(/๓/gi,"3");
-		tt = tt.replace(/๔/gi,"4");
-		tt = tt.replace(/๕/gi,"5");
-		tt = tt.replace(/๖/gi,"6");
-		tt = tt.replace(/๗/gi,"7");
-		tt = tt.replace(/๘/gi,"8");
-		tt = tt.replace(/๙/gi,"9");
+		text = text.replace(/๐/gi,"0");
+		text = text.replace(/๑/gi,"1");
+		text = text.replace(/๒/gi,"2");
+		text = text.replace(/๓/gi,"3");
+		text = text.replace(/๔/gi,"4");
+		text = text.replace(/๕/gi,"5");
+		text = text.replace(/๖/gi,"6");
+		text = text.replace(/๗/gi,"7");
+		text = text.replace(/๘/gi,"8");
+		text = text.replace(/๙/gi,"9");
 		th_num = true; //Indicate that the converted number is from thai numerals.
 	}
 	
 	function gText(e) {
-		t = (document.all) ? document.selection.createRange().text : document.getSelection();
+		hilightedText = (document.all) ? document.selection.createRange().text : document.getSelection();
 		
 		
-		tt = t.toString();//Convert Number to string
-		if (isNaN(t) == true){
+		text = hilightedText.toString();//Convert Number to string
+		if (isNaN(hilightedText) == true){
 			replaceTE();
 		}
-		tl = t.toString().trim().length;//Get number length
-		ts = isNaN(tt);//Check is tt a number
+		textLength = hilightedText.toString().trim().length;//Get number length
+		textNumcheck = isNaN(text);//Check is text a number
 
-		//Check tl / tt and show popup
-		if(tl == 4 && ts == false){
-			ta = tt - 543;
+		//Check textLength / text and show popup
+		if(textLength == 4 && textNumcheck == false){
+			textConverted = text - 543;
 			if(th_num == true){
 				//Pop-up formatting when thai numerals converted
-				tshow = tt + " = " + ta;
+				textOutput = text + " = " + textConverted;
 			} else {
 				//Pop-up formatting when arabic numerals converted
-				tshow = ta;
+				textOutput = textConverted;
 			}
-				$("body").append(popup);
-				$('#popup').text(tshow);
-				$('#popup').offset({ top: e.pageY, left:  e.pageX}).show(); 
+
+			//Showing pop-up
+			$("body").append(popup);
+			$('#popup').text(textOutput);
+			$('#popup').offset({ top: e.pageY, left:  e.pageX}).show(); 
 		} else {
-			//
+			//Nothing
 		}
 
 	}
