@@ -40,6 +40,7 @@ A simple Google Chrome extension for converting year format from Buddhist Era to
 - [ ] Add "Options" page for user to config
    - [ ] Enable to convert from CE to BE
 - [ ] Make script in `content.js` easier to understand (Most variable named like tt, ts, tl.. Now even I don't undestand this)
+- [ ] Change jQuery path from local to CDN
 
 ## Built with
 
