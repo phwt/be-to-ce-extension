@@ -1,4 +1,5 @@
 $(document).ready( function() {
+	//Option testing
 	/*var ls = localStorage.getItem("favColor");
 	ls = ls.toString();
 	alert(ls);*/
@@ -7,6 +8,7 @@ $(document).ready( function() {
 	$("body").mousedown(closeModal);
 	
 	var th_num = false;
+	//Replace thai numerals to arabic numerals
 	function replaceTE() {
 		tt = tt.replace(/๐/gi,"0");
 		tt = tt.replace(/๑/gi,"1");
@@ -18,7 +20,7 @@ $(document).ready( function() {
 		tt = tt.replace(/๗/gi,"7");
 		tt = tt.replace(/๘/gi,"8");
 		tt = tt.replace(/๙/gi,"9");
-		th_num = true;
+		th_num = true; //Indicate that the converted number is from thai numerals.
 	}
 	
 	function gText(e) {
@@ -28,7 +30,6 @@ $(document).ready( function() {
 		tt = t.toString();//Convert Number to string
 		if (isNaN(t) == true){
 			replaceTE();
-			//alert("asd");
 		}
 		tl = t.toString().trim().length;//Get number length
 		ts = isNaN(tt);//Check is tt a number
@@ -37,8 +38,10 @@ $(document).ready( function() {
 		if(tl == 4 && ts == false){
 			ta = tt - 543;
 			if(th_num == true){
+				//Pop-up formatting when thai numerals converted
 				tshow = tt + " = " + ta;
 			} else {
+				//Pop-up formatting when arabic numerals converted
 				tshow = ta;
 			}
 				$("body").append(popup);
