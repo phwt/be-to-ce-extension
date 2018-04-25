@@ -1,0 +1,10 @@
+{
+   "appDesc": {
+      "description": "The description of the application, displayed in the web store.",
+      "message": "Change Buddhist Era to Christian Era when highlighting a text. (Based on Thai Solar Calendar)"
+   },
+   "appName": {
+      "description": "The title of the application, displayed in the web store.",
+      "message": "Buddhist Era to Christian Era"
+   }
+}
