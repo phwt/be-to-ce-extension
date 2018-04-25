@@ -39,3 +39,10 @@ A simple Google Chrome extension for converting year format from Buddhist Era to
 - [X] Add support for thai numerals
 - [ ] Add "Options" page for user to config
    - [ ] Enable to convert from CE to BE
+- [ ] Make script in `content.js` easier to understand (Most variable named like tt, ts, tl.. Now even I don't undestand this)
+
+## Built with
+
+- [jQuery](https://jquery.com/) - JavaScript library that make my life easier.
+- [Notepad++](https://notepad-plus-plus.org/) - My favorite text-editor.
+- [Google Chrome](https://www.google.com/chrome/) - For extension testing and deploying.
