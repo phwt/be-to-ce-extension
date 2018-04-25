@@ -12,7 +12,7 @@ A simple Google Chrome extension for converting year format from Buddhist Era to
 ## Features
 
 #### Available on live version. 
-- Convert year format from Budhist Era to Christian Era (-543) by just hilighting any 4-digit number.
+- Convert year format from Buddhist Era to Christian Era (-543) by just hilighting any 4-digit number.
 - Simple dismissable pop-up for display.
 - Thai numerals supported. (๐ ๑ ๒ ๓ ๔ ๕ ๖ ๗ ๘ ๙)
 
