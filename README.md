@@ -20,8 +20,7 @@ A simple Google Chrome extension for converting year format from Buddhist Era to
 - None
 
 #### Minor change(s) waiting for deployment.
-- ~~Update variable in `content.js` file for easier understanding.~~
-- ~~Updated jQuery version to 3.3.1~~
+- None
 
 ## How to use
 
@@ -63,3 +62,13 @@ A simple Google Chrome extension for converting year format from Buddhist Era to
 - [jQuery](https://jquery.com/) - JavaScript library that make my life easier.
 - [Notepad++](https://notepad-plus-plus.org/) - My favorite text-editor.
 - [Google Chrome](https://www.google.com/chrome/) - For extension testing and deploying.
+
+## Release History
+
+- 1.2 (25-04-18)
+    - Update variable in `content.js` file for easier understanding.
+    - Updated jQuery version to 3.3.1
+- 1.1 (28-10-17)
+    - First Release on Chrome Web Store
+- 1.0 (Unknown)
+    - Project Working in Process
