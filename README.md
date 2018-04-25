@@ -20,7 +20,7 @@ A simple Google Chrome extension for converting year format from Buddhist Era to
 - None
 
 #### Minor change(s) waiting for deployment.
-- Easier to understand `content.js` file
+- Update variable in `content.js` file for easier understanding.
 - Updated jQuery version to 3.3.1
 
 ## How to use
