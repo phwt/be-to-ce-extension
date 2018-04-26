@@ -59,7 +59,7 @@ A simple Google Chrome extension for converting year format from Buddhist Era to
 
 ## Built with
 
-- [jQuery](https://jquery.com/) - JavaScript library that make my life easier.
+- [jQuery](https://jquery.com/) - JavaScript library that made my life easier.
 - [Notepad++](https://notepad-plus-plus.org/) - My favorite text-editor.
 - [Google Chrome](https://www.google.com/chrome/) - For extension testing and deploying.
 
