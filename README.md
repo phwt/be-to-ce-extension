@@ -63,7 +63,7 @@ A simple Google Chrome extension for converting year format from Buddhist Era to
 - [Notepad++](https://notepad-plus-plus.org/) - My favorite text-editor.
 - [Google Chrome](https://www.google.com/chrome/) - For extension testing and deploying.
 
-## Release History
+## Changelog
 
 - 1.2 (25-04-18)
     - Update variable in `content.js` file for easier understanding.
