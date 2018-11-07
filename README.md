@@ -5,7 +5,7 @@
 
 #### [View on Chrome Web Store](https://chrome.google.com/webstore/detail/%E0%B9%81%E0%B8%9B%E0%B8%A5%E0%B8%87%E0%B8%9E%E0%B8%B8%E0%B8%97%E0%B8%98%E0%B8%A8%E0%B8%B1%E0%B8%81%E0%B8%A3%E0%B8%B2%E0%B8%8A%E0%B9%80%E0%B8%9B%E0%B9%87%E0%B8%99%E0%B8%84%E0%B8%A3%E0%B8%B4%E0%B8%AA%E0%B8%95%E0%B9%8C%E0%B8%A8/ijcplkjiabnjmdeokicnmaohobiblfjd)
 
-A simple Google Chrome extension for converting year format from Buddhist Era to Christian Era with single highlight.
+A simple Google Chrome extension for converting year format from Buddhist Era to Christian Era with a single highlight.
 
 ![Preview Image](https://raw.githubusercontent.com/phwt/be-to-ce-extension/master/preview.jpg)
 
@@ -14,7 +14,7 @@ A simple Google Chrome extension for converting year format from Buddhist Era to
 #### Available on live version. 
 - Convert year format from Buddhist Era to Christian Era (-543) by just hilighting any 4-digit number.
 - Simple dismissable pop-up for display.
-- Thai numerals supported. (๐ ๑ ๒ ๓ ๔ ๕ ๖ ๗ ๘ ๙)
+- Thai numerals are supported. (๐ ๑ ๒ ๓ ๔ ๕ ๖ ๗ ๘ ๙)
 
 #### Experimental/Waiting for deplotment feature(s).
 - None
